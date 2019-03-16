@@ -41,18 +41,16 @@ nav a {
   background-color: rgb(32,101,136);
 }
 
-.logo-search-login-bar input {
-  color: gray;
-  background-color: rgb(31, 82,111);
-}
-.logo-search-login-bar button {
-  background-color: rgb(31, 82,111);
-    border: none;
+.logo-search-login-bar {
+  display: flex;
 }
 
-.logo-search-login-bar {
-  width: 100%;
-  display: inline-block;
+.logo-search-login-bar ul {
+  display: flex;
+}
+
+.logo-search-login-bar ul li {
+  list-style: none;
 }
 
 .build-amazing-things {
